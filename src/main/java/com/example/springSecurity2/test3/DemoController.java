@@ -1,4 +1,4 @@
-package com.example.springSecurity2.Test1;
+package com.example.springSecurity2.test3;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
