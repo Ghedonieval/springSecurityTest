@@ -45,9 +45,7 @@ public class AuthenticationService {
                 .build();
 
         userRepository.save(AppUser);
-
-
-
+        
         var jwttoken = jwtService.generateToken(AppUser);
         return AuthenticationResponse.builder()
                 .token(jwttoken)
